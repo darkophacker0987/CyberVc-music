@@ -7,12 +7,12 @@
 Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
-  <a href="https://github.com/TamilBots/TamilVCMusic/fork">
-    <img src="https://img.shields.io/github/forks/TamilBots/TamilVCMusic?label=Fork&style=social">
+  <a href="https://github.com/Cyber/TamilVCMusic/fork">
+    <img src="https://img.shields.io/github/forks/Cyber/TamilVCMusic?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/TamilBots/TamilVCMusic">
-    <img src="https://img.shields.io/github/stars/TamilBots/TamilVCMusic?style=social">
+  <a href="https://github.com/Cyber/TamilVCMusic">
+    <img src="https://img.shields.io/github/stars/Cyber/TamilVCMusic?style=social">
   </a>
 </p>
 
@@ -26,18 +26,18 @@ Click the below button to watch the video tutorial on deploying
 ### Deploy To Heroku 📡</h4>
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/d43e9011bf46a359d872c.jpg)](https://heroku.com/deploy?template=https://github.com/TamilBots/TamilVcMusic.git)
+[![Deploy](https://telegra.ph/file/d43e9011bf46a359d872c.jpg)](https://heroku.com/deploy?template=https://github.com/Cyber/TamilVcMusic.git)
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TamilBots/TamilVCMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Cyber/TamilVCMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ###  GET STRING SESSION FROM REPL RUN
 
- [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TamilBots/generate-pyrogram-session-string#main.py)
+ [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@Cyber/generate-pyrogram-session-string#main.py)
 
 ### குழுக்கள் மற்றும் ஆதரவு:
 
-[![](https://camo.githubusercontent.com/e531cdc1dbdcb78f8ffe767875a6b6d33c43e2e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d2532304368616e6e656c2d7265642e7376673f6c6f676f3d54656c656772616d)](https://t.me/TamilBots)
+[![](https://camo.githubusercontent.com/e531cdc1dbdcb78f8ffe767875a6b6d33c43e2e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d2532304368616e6e656c2d7265642e7376673f6c6f676f3d54656c656772616d)](https://t.me/Cyber)
 
 [![](https://camo.githubusercontent.com/7b0a8bb8af0b2466dd1c38a6c1367ddee45ba266/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d25323047726f75702d626c75652e7376673f6c6f676f3d74656c656772616d)](https://t.me/TamilSupport)
 
@@ -50,15 +50,15 @@ Click the below button to watch the video tutorial on deploying
 ### Deploy to VPS 🏃
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TamilBots/TamilVcMusic
-$ cd TamilBots
+$ git clone https://github.com/Cyber/TamilVcMusic
+$ cd Cyber
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python3 -m TamilBots
+$ python3 -m Cyber
 ```
 
 </details>
@@ -162,7 +162,7 @@ If you donlt like to play in linked channel:
 
 </details>
 
-## Made with ❤️ By @TamilBots
+## Made with ❤️ By @Cyber
 
 ### Credits
 #### Special Credits

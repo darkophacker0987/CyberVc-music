@@ -1,5 +1,5 @@
-# TamilBots
-# Copyright (C) 2021 @TamilBots
+# Cyber
+# Copyright (C) 2021 @Cyber
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -14,10 +14,10 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from TamilBots.services.queues.queues import clear 
-from TamilBots.services.queues.queues import get
-from TamilBots.services.queues.queues import is_empty
-from TamilBots.services.queues.queues import put
-from TamilBots.services.queues.queues import task_done
+from Cyber.services.queues.queues import clear 
+from Cyber.services.queues.queues import get
+from Cyber.services.queues.queues import is_empty
+from Cyber.services.queues.queues import put
+from Cyber.services.queues.queues import task_done
 
 __all__ = ["clear", "get", "is_empty", "put", "task_done"]

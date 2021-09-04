@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/a948caa899055d6109fad.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TamilBots/TamilVcMusic",
+  "repository": "https://github.com/Cyber/TamilVcMusic",
   "stack": "container",
   "buildpacks": [
    {
@@ -15,7 +15,7 @@
   ],        
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string Get From : https://replit.com/@TamilBots/TAMILVCBOT#main.py",
+      "description": "Pyrogram session string Get From : https://replit.com/@Cyber/TAMILVCBOT#main.py",
       "required": true
     },
     "BOT_TOKEN": {
@@ -39,7 +39,7 @@
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "TamilBots"
+      "value": "Cyber"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",

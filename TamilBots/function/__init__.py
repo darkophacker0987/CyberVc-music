@@ -1,3 +1,3 @@
-from TamilBots.function.admins import admins, get, set
+from Cyber.function.admins import admins, get, set
 
 __all__ = ["set", "get", "admins"]

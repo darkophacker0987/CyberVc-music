@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from TamilBots.helpers.decorators import authorized_users_only
-from TamilBots.helpers.decorators import errors
-from TamilBots.services.callsmusic import client as USER
-from TamilBots.config import SUDO_USERS
+from Cyber.helpers.decorators import authorized_users_only
+from Cyber.helpers.decorators import errors
+from Cyber.services.callsmusic import client as USER
+from Cyber.config import SUDO_USERS
 
 @Client.on_message(filters.command(["join"]) & ~filters.private & ~filters.bot)
 @authorized_users_only

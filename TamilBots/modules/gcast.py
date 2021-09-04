@@ -7,8 +7,8 @@ from pyrogram.types import Chat
 from pyrogram.types import Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from TamilBots.services.callsmusic.callsmusic import client as USER
-from TamilBots.config import SUDO_USERS
+from Cyber.services.callsmusic.callsmusic import client as USER
+from Cyber.config import SUDO_USERS
 
 
 @Client.on_message(filters.command(["gcast"]))

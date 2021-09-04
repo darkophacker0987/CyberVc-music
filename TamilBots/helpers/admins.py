@@ -2,8 +2,8 @@ from typing import List
 
 from pyrogram.types import Chat, User
 
-from TamilBots.function.admins import get as gett
-from TamilBots.function.admins import set
+from Cyber.function.admins import get as gett
+from Cyber.function.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[User]:

@@ -1,8 +1,8 @@
 import logging
-from TamilBots.modules.msg import Messages as tr
+from Cyber.modules.msg import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from TamilBots.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
+from Cyber.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
@@ -21,7 +21,7 @@ def _start(client, message):
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.command(["start","start@TamilBots"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start","start@Cyber"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**{PROJECT_NAME} is online.**""",

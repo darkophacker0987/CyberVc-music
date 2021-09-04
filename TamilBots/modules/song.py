@@ -18,8 +18,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from TamilBots.config import DURATION_LIMIT
-from TamilBots.modules.play import arq
+from Cyber.config import DURATION_LIMIT
+from Cyber.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
@@ -59,7 +59,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**♥️ Uploaded by** @TamilBots."
+        rep = "**♥️ Uploaded by** @Cyber."
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
