@@ -17,31 +17,31 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from TamilBots.modules.play import generate_cover
-from TamilBots.modules.play import arq
-from TamilBots.modules.play import cb_admin_check
-from TamilBots.modules.play import transcode
-from TamilBots.modules.play import convert_seconds
-from TamilBots.modules.play import time_to_seconds
-from TamilBots.modules.play import changeImageSize
-from TamilBots.config import BOT_NAME as bn
-from TamilBots.config import DURATION_LIMIT
-from TamilBots.config import UPDATES_CHANNEL as updateschannel
-from TamilBots.config import que
-from TamilBots.function.admins import admins as a
-from TamilBots.helpers.errors import DurationLimitError
-from TamilBots.helpers.decorators import errors
-from TamilBots.helpers.admins import get_administrators
-from TamilBots.helpers.channelmusic import get_chat_id
-from TamilBots.helpers.decorators import authorized_users_only
-from TamilBots.helpers.filters import command
-from TamilBots.helpers.filters import other_filters
-from TamilBots.helpers.gets import get_file_name
-from TamilBots.services.callsmusic import callsmusic
-from TamilBots.services.callsmusic import client as USER
-from TamilBots.services.converter.converter import convert
-from TamilBots.services.downloaders import youtube
-from TamilBots.services.queues import queues
+from Cyber.modules.play import generate_cover
+from Cyber.modules.play import arq
+from Cyber.modules.play import cb_admin_check
+from Cyber.modules.play import transcode
+from Cyber.modules.play import convert_seconds
+from Cyber.modules.play import time_to_seconds
+from Cyber.modules.play import changeImageSize
+from Cyber.config import BOT_NAME as bn
+from Cyber.config import DURATION_LIMIT
+from Cyber.config import UPDATES_CHANNEL as updateschannel
+from Cyber.config import que
+from Cyber.function.admins import admins as a
+from Cyber.helpers.errors import DurationLimitError
+from Cyber.helpers.decorators import errors
+from Cyber.helpers.admins import get_administrators
+from Cyber.helpers.channelmusic import get_chat_id
+from Cyber.helpers.decorators import authorized_users_only
+from Cyber.helpers.filters import command
+from Cyber.helpers.filters import other_filters
+from Cyber.helpers.gets import get_file_name
+from Cyber.services.callsmusic import callsmusic
+from Cyber.services.callsmusic import client as USER
+from Cyber.services.converter.converter import convert
+from Cyber.services.downloaders import youtube
+from Cyber.services.queues import queues
 
 chat_id = None
 

@@ -1,2 +1,2 @@
-from TamilBots.services.downloaders import youtube
+from Cyber.services.downloaders import youtube
 __all__ = ["youtube"]

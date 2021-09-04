@@ -3,8 +3,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from TamilBots.config import SUDO_USERS
-from TamilBots.helpers.admins import get_administrators
+from Cyber.config import SUDO_USERS
+from Cyber.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:

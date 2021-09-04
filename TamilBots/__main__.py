@@ -1,5 +1,5 @@
 # TamilVcMusic(Telegram bot project)
-# Copyright (C) 2021  TamilBots
+# Copyright (C) 2021  Cyber
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,11 +18,11 @@
 import requests
 from pyrogram import Client as Bot
 
-from TamilBots.config import API_HASH
-from TamilBots.config import API_ID
-from TamilBots.config import BG_IMAGE
-from TamilBots.config import BOT_TOKEN
-from TamilBots.services.callsmusic import run
+from Cyber.config import API_HASH
+from Cyber.config import API_ID
+from Cyber.config import BG_IMAGE
+from Cyber.config import BOT_TOKEN
+from Cyber.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -34,7 +34,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="TamilBots.modules"),
+    plugins=dict(root="Cyber.modules"),
 )
 
 bot.start()

@@ -1,5 +1,5 @@
 import os
-from TamilBots.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
+from Cyber.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I Am An Advanced Bot Created For Playing Music In The Voice Chats Of Telegram Groups & Channels.\n\n✅ Hits /help For More Info. Report 🐛 Bugs At : @TamilSupport."
       HELP_MSG = [

@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from TamilBots.helpers.errors import FFmpegReturnCodeError
+from Cyber.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:

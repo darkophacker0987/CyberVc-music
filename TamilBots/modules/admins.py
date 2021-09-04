@@ -1,14 +1,14 @@
 from asyncio.queues import QueueEmpty
-from TamilBots.config import que
+from Cyber.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from TamilBots.function.admins import set
-from TamilBots.helpers.channelmusic import get_chat_id
-from TamilBots.helpers.decorators import authorized_users_only, errors
-from TamilBots.helpers.filters import command, other_filters
-from TamilBots.services.callsmusic import callsmusic
-from TamilBots.services.queues import queues
+from Cyber.function.admins import set
+from Cyber.helpers.channelmusic import get_chat_id
+from Cyber.helpers.decorators import authorized_users_only, errors
+from Cyber.helpers.filters import command, other_filters
+from Cyber.services.callsmusic import callsmusic
+from Cyber.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))

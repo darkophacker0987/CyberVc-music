@@ -2,8 +2,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from TamilBots.config import DURATION_LIMIT
-from TamilBots.helpers.errors import DurationLimitError
+from Cyber.config import DURATION_LIMIT
+from Cyber.helpers.errors import DurationLimitError
 ydl_opts = {
     "format": "bestaudio/best",
     "verbose": True,
